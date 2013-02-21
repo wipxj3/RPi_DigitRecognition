@@ -1,10 +1,12 @@
 __author__ = 'dexter'
-import RPi_Camera, RPi_Led, time
+import RPi_Camera
+#import RPi_Led
+import time
 
 
 def rpiCapture():
     print 'Turning LED ON'
-    led = RPi_Led.Led()
+    #led = RPi_Led.Led()
 
     print 'Starting capture...'
     capture = RPi_Camera.CaptureImage()
@@ -12,7 +14,7 @@ def rpiCapture():
     print 'Saved as ' + image + '.png'
 
     print 'Turning LED OFF'
-    led.ledOff()
+    #led.ledOff()
     return 1
 
 
