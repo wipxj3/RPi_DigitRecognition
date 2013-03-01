@@ -1,7 +1,0 @@
-!/bin/bash
-while True
-	do
-		echo "Started Capture..."
-		sudo python RPi_main.py
-		sleep 300
-done

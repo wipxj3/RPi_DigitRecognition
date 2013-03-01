@@ -5,15 +5,14 @@ import time
 
 
 def rpiCapture():
-    print 'Turning LED ON'
+    #print 'Turning LED ON'
     #led = RPi_Led.Led()
 
     print 'Starting capture...'
     capture = RPi_Camera.CaptureImage()
     image = capture.getImageIndex()
     print 'Saved as ' + image + '.png'
-
-    print 'Turning LED OFF'
+    #print 'Turning LED OFF'
     #led.ledOff()
     return 1
 
