@@ -8,6 +8,7 @@ Requirments
 
 * Python 2.7.x
 * Tesseract-OCR - http://code.google.com/p/tesseract-ocr/wiki/ReadMe
+  - Compilation details http://code.google.com/p/tesseract-ocr/wiki/Compiling
 * OpenCV 2.4.3 - http://mitchtech.net/raspberry-pi-opencv/
 * Pillow (Imaging Library) - https://pypi.python.org/pypi/Pillow/
 
